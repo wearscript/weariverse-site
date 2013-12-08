@@ -4,5 +4,5 @@ gem "bootstrap-sass", require: false
 gem "gravatar_image_tag"
 gem "middleman"
 gem "middleman-core"
-gem "middleman-gh-pages"
+gem "rake"
 gem "slim"
