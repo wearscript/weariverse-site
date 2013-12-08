@@ -12,7 +12,8 @@ camera-preview:
   tags:
   - demo
   remixes: ''
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/camera-preview
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/camera-preview
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/camera-preview
   features: []
 card-example:
   name: GDK Cards Example
@@ -28,7 +29,8 @@ card-example:
   tags:
   - custom-web
   remixes: ''
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/card-example
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/card-example
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/card-example
   features:
   - custom-web
 compass:
@@ -43,7 +45,8 @@ compass:
   - navigation
   - mapping
   - compass
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/compass
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/compass
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/compass
   features: []
 eyetracker-calibration:
   name: Eyetracker Calibrate
@@ -56,7 +59,8 @@ eyetracker-calibration:
   tags:
   - eyetracker
   - utility
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/eyetracker-calibration
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/eyetracker-calibration
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/eyetracker-calibration
   features:
   - eyetracker
 gestures-example:
@@ -73,7 +77,8 @@ gestures-example:
   tags:
   - custom-web
   remixes: ''
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/gestures-example
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/gestures-example
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/gestures-example
   features:
   - custom-web
 hacker-news:
@@ -91,7 +96,8 @@ hacker-news:
   - ''
   video: HQFgfXFrR1E
   remixes: ''
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/hacker-news
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/hacker-news
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/hacker-news
   features: []
 image-pan:
   name: Image Panning Sample
@@ -105,7 +111,8 @@ image-pan:
   - rotationVectorUtil.js
   tags:
   - image pan
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/image-pan
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/image-pan
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/image-pan
   features: []
 irc:
   name: IRC
@@ -123,7 +130,8 @@ irc:
   - custom-web
   video: HQFgfXFrR1E
   remixes: ''
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/irc
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/irc
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/irc
   features:
   - custom-web
 keypress:
@@ -138,7 +146,8 @@ keypress:
     to the console and spoken aloud.
   tags:
   - example
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/keypress
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/keypress
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/keypress
   features: []
 memories:
   name: Memories
@@ -154,7 +163,8 @@ memories:
   tags:
   - demo
   remixes: ''
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/memories
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/memories
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/memories
   features: []
 morse-code:
   name: Morse Code
@@ -167,7 +177,8 @@ morse-code:
     division.
   tags:
   - demo
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/morse-code
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/morse-code
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/morse-code
   features: []
 picture-callback:
   name: Picture Callback
@@ -180,7 +191,8 @@ picture-callback:
     tag
   tags:
   - example
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/picture-callback
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/picture-callback
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/picture-callback
   features: []
 rotation-vector-demo:
   name: Rotation Vector Demo
@@ -192,7 +204,8 @@ rotation-vector-demo:
   tags:
   - demo
   remixes: ''
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/rotation-vector-demo
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/rotation-vector-demo
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/rotation-vector-demo
   features: []
 satellite-view:
   name: Satellite View
@@ -208,7 +221,8 @@ satellite-view:
   - gps
   - compass
   - google-maps
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/satellite-view
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/satellite-view
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/satellite-view
   features: []
 sugarglider:
   name: SugarGlider
@@ -225,5 +239,6 @@ sugarglider:
   - compass
   - gps
   - google-maps
-  app_uri: https://raw.github.com/openshades/weariverse/master/scripts/sugarglider
+  app_uri: https://raw.github.com/OpenShades/weariverse/master/scripts/sugarglider
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/sugarglider
   features: []
