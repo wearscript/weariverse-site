@@ -12,10 +12,10 @@ camera-preview:
   tags:
   - demo
   remixes: ''
-  sha2: e8f360bbce38b88cee52926e8088d142a1fba224562791369fe944cd65b650f3
   app_uri: https://s3.amazonaws.com/weariverse/camera-preview
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/camera-preview
   features: []
+  sha2: e8f360bbce38b88cee52926e8088d142a1fba224562791369fe944cd65b650f3
 card-example:
   name: GDK Cards Example
   authors:
@@ -30,11 +30,11 @@ card-example:
   tags:
   - custom-web
   remixes: ''
-  sha2: 024654c94dfb0789a1cf455c76053bdb35617a4c6d367298d7a64d2158fb1d8a
   app_uri: https://s3.amazonaws.com/weariverse/card-example
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/card-example
   features:
   - custom-web
+  sha2: 024654c94dfb0789a1cf455c76053bdb35617a4c6d367298d7a64d2158fb1d8a
 compass:
   name: Compass
   authors:
@@ -49,10 +49,11 @@ compass:
   - mapping
   - compass
   - apk
-  sha2: 91082eaea8f52cc9b38bc135ce6db8f6e7ff1c3ecb852f2e59c7a09e0f9bd03e
   app_uri: https://s3.amazonaws.com/weariverse/compass
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/compass
   features: []
+  sha2: 91082eaea8f52cc9b38bc135ce6db8f6e7ff1c3ecb852f2e59c7a09e0f9bd03e
+  sha2-apk: 223ab8dc8a4c32629142992b6b7568aa66ee93887384b07ee0f23b4c444abc36
 eyetracker-calibration:
   name: Eyetracker Calibrate
   authors:
@@ -64,11 +65,11 @@ eyetracker-calibration:
   tags:
   - eyetracker
   - utility
-  sha2: af88a95b1247e9f6fee1b0afd4b8ce39c4412d68803dafc46bf54e3e66143fd7
   app_uri: https://s3.amazonaws.com/weariverse/eyetracker-calibration
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/eyetracker-calibration
   features:
   - eyetracker
+  sha2: af88a95b1247e9f6fee1b0afd4b8ce39c4412d68803dafc46bf54e3e66143fd7
 gestures-example:
   name: GDK Gestures Example
   authors:
@@ -83,11 +84,11 @@ gestures-example:
   tags:
   - custom-web
   remixes: ''
-  sha2: 31550301f92d6da6e79c6e16bb4706884e1f3699ae090bbe60064670a739259b
   app_uri: https://s3.amazonaws.com/weariverse/gestures-example
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/gestures-example
   features:
   - custom-web
+  sha2: 31550301f92d6da6e79c6e16bb4706884e1f3699ae090bbe60064670a739259b
 hacker-news:
   name: Hacker News
   authors:
@@ -103,10 +104,10 @@ hacker-news:
   - ''
   video: HQFgfXFrR1E
   remixes: ''
-  sha2: bfb27a82296d32603a33a5970caf3d8a7749a978deb19b284db20d9b466c5b10
   app_uri: https://s3.amazonaws.com/weariverse/hacker-news
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/hacker-news
   features: []
+  sha2: bfb27a82296d32603a33a5970caf3d8a7749a978deb19b284db20d9b466c5b10
 image-pan:
   name: Image Panning Sample
   authors:
@@ -119,10 +120,10 @@ image-pan:
   - rotationVectorUtil.js
   tags:
   - image pan
-  sha2: b56acb89f57a431a090636231a5f8acf7ba0e092689d1f625cfed86d069a2b38
   app_uri: https://s3.amazonaws.com/weariverse/image-pan
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/image-pan
   features: []
+  sha2: b56acb89f57a431a090636231a5f8acf7ba0e092689d1f625cfed86d069a2b38
 irc:
   name: IRC
   authors:
@@ -139,11 +140,11 @@ irc:
   - custom-web
   video: HQFgfXFrR1E
   remixes: ''
-  sha2: 5a1703bab1ada5c74b2a2a165ef668813b9117b48f5561d8156784aac020f820
   app_uri: https://s3.amazonaws.com/weariverse/irc
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/irc
   features:
   - custom-web
+  sha2: 5a1703bab1ada5c74b2a2a165ef668813b9117b48f5561d8156784aac020f820
 keypress:
   name: Keypress
   authors:
@@ -156,10 +157,10 @@ keypress:
     to the console and spoken aloud.
   tags:
   - example
-  sha2: 73e1ea4b986e8f6de4b5d82c2eac5e07ec527d855a8358fa634413e5cf48c756
   app_uri: https://s3.amazonaws.com/weariverse/keypress
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/keypress
   features: []
+  sha2: 73e1ea4b986e8f6de4b5d82c2eac5e07ec527d855a8358fa634413e5cf48c756
 memories:
   name: Memories
   authors:
@@ -174,10 +175,10 @@ memories:
   tags:
   - demo
   remixes: ''
-  sha2: c36b1ea5d1958dd08a9c437f9d342323eac7cedbc0d1254ab468bbfcc63c0717
   app_uri: https://s3.amazonaws.com/weariverse/memories
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/memories
   features: []
+  sha2: c36b1ea5d1958dd08a9c437f9d342323eac7cedbc0d1254ab468bbfcc63c0717
 morse-code:
   name: Morse Code
   authors:
@@ -189,10 +190,10 @@ morse-code:
     division.
   tags:
   - demo
-  sha2: 8edd44cc62d48f979b7490fa920c6c81dc1e9fe21cd27fed7aa25a946c805bff
   app_uri: https://s3.amazonaws.com/weariverse/morse-code
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/morse-code
   features: []
+  sha2: 8edd44cc62d48f979b7490fa920c6c81dc1e9fe21cd27fed7aa25a946c805bff
 picture-callback:
   name: Picture Callback
   authors:
@@ -204,10 +205,10 @@ picture-callback:
     tag
   tags:
   - example
-  sha2: e0a05af94df5d9ef2e236918f5e0601cfe47a0b82330f22981d02f7576a4ffdc
   app_uri: https://s3.amazonaws.com/weariverse/picture-callback
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/picture-callback
   features: []
+  sha2: e0a05af94df5d9ef2e236918f5e0601cfe47a0b82330f22981d02f7576a4ffdc
 qr:
   name: QR
   authors:
@@ -220,11 +221,11 @@ qr:
   - qr
   - example
   description: Scan a QR code with Glass and have links open in tabs on your phone/laptop
-  sha2: 6203d64c0c704964ae153a90a9cc7e570d1e0101bf9e650ddcc9bc8ef175a2a7
   app_uri: https://s3.amazonaws.com/weariverse/qr
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/qr
   features:
   - widget
+  sha2: 6203d64c0c704964ae153a90a9cc7e570d1e0101bf9e650ddcc9bc8ef175a2a7
 rotation-vector-demo:
   name: Rotation Vector Demo
   authors:
@@ -235,10 +236,10 @@ rotation-vector-demo:
   tags:
   - demo
   remixes: ''
-  sha2: 4b47517b781e9984a9b607c4c9643aeda4d983ef2e6521d0d15676c50e4052c0
   app_uri: https://s3.amazonaws.com/weariverse/rotation-vector-demo
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/rotation-vector-demo
   features: []
+  sha2: 4b47517b781e9984a9b607c4c9643aeda4d983ef2e6521d0d15676c50e4052c0
 satellite-view:
   name: Satellite View
   authors:
@@ -253,10 +254,10 @@ satellite-view:
   - gps
   - compass
   - google-maps
-  sha2: 131be254544b1b6c27535d4f75f6b867c94b0eb83042b09ba8ef78976b29a79f
   app_uri: https://s3.amazonaws.com/weariverse/satellite-view
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/satellite-view
   features: []
+  sha2: 131be254544b1b6c27535d4f75f6b867c94b0eb83042b09ba8ef78976b29a79f
 sugarglider:
   name: SugarGlider
   authors:
@@ -272,7 +273,7 @@ sugarglider:
   - compass
   - gps
   - google-maps
-  sha2: 1f9358a05b45f19cc1d9d2c53dd569e57a1604df0cd7633770845b5405890ffb
   app_uri: https://s3.amazonaws.com/weariverse/sugarglider
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/sugarglider
   features: []
+  sha2: 1f9358a05b45f19cc1d9d2c53dd569e57a1604df0cd7633770845b5405890ffb
