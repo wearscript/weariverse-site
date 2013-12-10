@@ -194,6 +194,22 @@ picture-callback:
   app_uri: https://s3.amazonaws.com/weariverse-scripts/picture-callback
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/picture-callback
   features: []
+qr:
+  name: qr
+  authors:
+  - name: Brandyn White
+    email: bwhite@dappervision.com
+    github: bwhite
+    url: http://brandynwhite.com
+  tags:
+  - widget
+  - qr
+  - example
+  description: ! "Scan with a QR code and have links open in tabs on your phone/laptop\e[D\e[D\e[D\e"
+  app_uri: https://s3.amazonaws.com/weariverse-scripts/qr
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/qr
+  features:
+  - widget
 rotation-vector-demo:
   name: Rotation Vector Demo
   authors:
