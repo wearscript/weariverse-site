@@ -4,6 +4,7 @@ camera-preview:
   authors:
   - name: Tim Clemans
     github: timothyclemans
+    email: timothy.clemans@gmail.com
   description: Shows image preview before taking a picture.
   screenshots: []
   require: []
@@ -22,6 +23,7 @@ card-example:
   authors:
   - name: Brandyn White
     github: bwhite
+    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   description: Example of adding/deleting GDK cards.
   screenshots: []
@@ -64,6 +66,7 @@ eyetracker-calibration:
   authors:
   - name: Brandyn White
     github: bwhite
+    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   description: Calibrates eyetracker zones.
   tags:
@@ -101,6 +104,7 @@ hacker-news:
   name: Hacker News
   authors:
   - name: Brandyn White
+    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   description: Cards for each front page link, links open in phone/laptop.
   screenshots: []
@@ -140,6 +144,7 @@ irc:
   authors:
   - name: Brandyn White
     github: bwhite
+    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   description: Bidirectional IRC client, needs to be used in conjunction with the
     accompanying Python relay.
@@ -162,6 +167,7 @@ keypress:
   authors:
   - name: Brandyn White
     github: bwhite
+    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   description: Example of keypress events with a bluetooth keyboard. Keypresses are
     logged to the console and spoken aloud.
@@ -178,6 +184,7 @@ memories:
   authors:
   - name: Tim Clemans
     github: timothyclemans
+    email: timothy.clemans@gmail.com
   description: Using speech recognition you can temporarily store and retrieve strings
     of text.
   screenshots: []
@@ -197,6 +204,7 @@ morse-code:
   authors:
   - name: Brandyn White
     github: bwhite
+    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   description: One finger tap for dot, two finger tap for dash, timing controls letter/word
     division.
@@ -213,6 +221,7 @@ picture-callback:
   authors:
   - name: Brandyn White
     github: bwhite
+    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   description: Shows taking a picture with the camera and displaying it in an image
     tag
@@ -229,6 +238,7 @@ qr:
   authors:
   - name: Brandyn White
     github: bwhite
+    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   tags:
   - widget
@@ -245,6 +255,7 @@ rotation-vector-demo:
   name: Rotation Vector Demo
   authors:
   - name: Scott Greenwald
+    email: swgreen@mit.edu
     github: scottgwald
   description: Shows orientation derived from rotation vector
   tags:
