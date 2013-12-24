@@ -3,9 +3,8 @@ camera-preview:
   name: Camera Preview
   authors:
   - name: Tim Clemans
-    email: timothy.clemans@gmail.com
     github: timothyclemans
-  description: Shows preview of what image will be before taking a picture.
+  description: Shows image preview before taking a picture.
   screenshots: []
   require: []
   includes: []
@@ -15,26 +14,28 @@ camera-preview:
   app_uri: https://s3.amazonaws.com/weariverse/camera-preview
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/camera-preview
   features: []
-  sha2: e8f360bbce38b88cee52926e8088d142a1fba224562791369fe944cd65b650f3
+  sha2: !binary |-
+    ZThmMzYwYmJjZTM4Yjg4Y2VlNTI5MjZlODA4OGQxNDJhMWZiYTIyNDU2Mjc5
+    MTM2OWZlOTQ0Y2Q2NWI2NTBmMw==
 card-example:
   name: GDK Cards Example
   authors:
   - name: Brandyn White
-    email: bwhite@dappervision.com
+    github: bwhite
     url: http://brandynwhite.com
-  description: Two finger tap to create a card, Three finger tap to delete the first
-    card, and Long press to replace a card.
+  description: Example of adding/deleting GDK cards.
   screenshots: []
   require: []
   includes: []
   tags:
-  - custom-web
+  - ''
   remixes: ''
   app_uri: https://s3.amazonaws.com/weariverse/card-example
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/card-example
-  features:
-  - custom-web
-  sha2: 024654c94dfb0789a1cf455c76053bdb35617a4c6d367298d7a64d2158fb1d8a
+  features: []
+  sha2: !binary |-
+    MDI0NjU0Yzk0ZGZiMDc4OWExY2Y0NTVjNzYwNTNiZGIzNTYxN2E0YzZkMzY3
+    Mjk4ZDdhNjRkMjE1OGZiMWQ4YQ==
 compass:
   name: Compass
   authors:
@@ -52,16 +53,19 @@ compass:
   app_uri: https://s3.amazonaws.com/weariverse/compass
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/compass
   features: []
-  sha2: 91082eaea8f52cc9b38bc135ce6db8f6e7ff1c3ecb852f2e59c7a09e0f9bd03e
-  sha2-apk: 223ab8dc8a4c32629142992b6b7568aa66ee93887384b07ee0f23b4c444abc36
+  sha2: !binary |-
+    OTEwODJlYWVhOGY1MmNjOWIzOGJjMTM1Y2U2ZGI4ZjZlN2ZmMWMzZWNiODUy
+    ZjJlNTljN2EwOWUwZjliZDAzZQ==
+  sha2-apk: !binary |-
+    MjIzYWI4ZGM4YTRjMzI2MjkxNDI5OTJiNmI3NTY4YWE2NmVlOTM4ODczODRi
+    MDdlZTBmMjNiNGM0NDRhYmMzNg==
 eyetracker-calibration:
   name: Eyetracker Calibrate
   authors:
   - name: Brandyn White
-    email: bwhite@dappervision.com
     github: bwhite
     url: http://brandynwhite.com
-  description: This requires our hardware eye tracking addon.
+  description: Calibrates eyetracker zones.
   tags:
   - eyetracker
   - utility
@@ -69,7 +73,9 @@ eyetracker-calibration:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/eyetracker-calibration
   features:
   - eyetracker
-  sha2: af88a95b1247e9f6fee1b0afd4b8ce39c4412d68803dafc46bf54e3e66143fd7
+  sha2: !binary |-
+    YWY4OGE5NWIxMjQ3ZTlmNmZlZTFiMGFmZDRiOGNlMzljNDQxMmQ2ODgwM2Rh
+    ZmM0NmJmNTRlM2U2NjE0M2ZkNw==
 gestures-example:
   name: GDK Gestures Example
   authors:
@@ -88,26 +94,29 @@ gestures-example:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/gestures-example
   features:
   - custom-web
-  sha2: 31550301f92d6da6e79c6e16bb4706884e1f3699ae090bbe60064670a739259b
+  sha2: !binary |-
+    MzE1NTAzMDFmOTJkNmRhNmU3OWM2ZTE2YmI0NzA2ODg0ZTFmMzY5OWFlMDkw
+    YmJlNjAwNjQ2NzBhNzM5MjU5Yg==
 hacker-news:
   name: Hacker News
   authors:
   - name: Brandyn White
-    email: bwhite@dappervision.com
     url: http://brandynwhite.com
-  description: Shows you Hacker News front page, clicks open up links on your phone/laptop
-    (open the WearScript Playground).
+  description: Cards for each front page link, links open in phone/laptop.
   screenshots: []
   require: []
   includes: []
   tags:
-  - ''
+  - custom-web
   video: HQFgfXFrR1E
   remixes: ''
   app_uri: https://s3.amazonaws.com/weariverse/hacker-news
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/hacker-news
-  features: []
-  sha2: bfb27a82296d32603a33a5970caf3d8a7749a978deb19b284db20d9b466c5b10
+  features:
+  - custom-web
+  sha2: !binary |-
+    YmZiMjdhODIyOTZkMzI2MDNhMzNhNTk3MGNhZjNkOGE3NzQ5YTk3OGRlYjE5
+    YjI4NGRiMjBkOWI0NjZjNWIxMA==
 image-pan:
   name: Image Panning Sample
   authors:
@@ -123,13 +132,14 @@ image-pan:
   app_uri: https://s3.amazonaws.com/weariverse/image-pan
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/image-pan
   features: []
-  sha2: b56acb89f57a431a090636231a5f8acf7ba0e092689d1f625cfed86d069a2b38
+  sha2: !binary |-
+    YjU2YWNiODlmNTdhNDMxYTA5MDYzNjIzMWE1ZjhhY2Y3YmEwZTA5MjY4OWQx
+    ZjYyNWNmZWQ4NmQwNjlhMmIzOA==
 irc:
   name: IRC
   authors:
   - name: Brandyn White
     github: bwhite
-    email: bwhite@dappervision.com
     url: http://brandynwhite.com
   description: Bidirectional IRC client, needs to be used in conjunction with the
     accompanying Python relay.
@@ -137,35 +147,36 @@ irc:
   require: []
   includes: []
   tags:
-  - custom-web
+  - server
   video: HQFgfXFrR1E
   remixes: ''
   app_uri: https://s3.amazonaws.com/weariverse/irc
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/irc
   features:
-  - custom-web
-  sha2: 5a1703bab1ada5c74b2a2a165ef668813b9117b48f5561d8156784aac020f820
+  - server
+  sha2: !binary |-
+    NWExNzAzYmFiMWFkYTVjNzRiMmEyYTE2NWVmNjY4ODEzYjkxMTdiNDhmNTU2
+    MWQ4MTU2Nzg0YWFjMDIwZjgyMA==
 keypress:
   name: Keypress
   authors:
   - name: Brandyn White
-    email: bwhite@dappervision.com
     github: bwhite
     url: http://brandynwhite.com
-  description: Example of keypress events with a bluetooth keyboard, currently requires
-    you to move the mouse and click the screen to bring focus.  Keypresses are logged
-    to the console and spoken aloud.
+  description: Example of keypress events with a bluetooth keyboard. Keypresses are
+    logged to the console and spoken aloud.
   tags:
   - example
   app_uri: https://s3.amazonaws.com/weariverse/keypress
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/keypress
   features: []
-  sha2: 73e1ea4b986e8f6de4b5d82c2eac5e07ec527d855a8358fa634413e5cf48c756
+  sha2: !binary |-
+    NzNlMWVhNGI5ODZlOGY2ZGU0YjVkODJjMmVhYzVlMDdlYzUyN2Q4NTVhODM1
+    OGZhNjM0NDEzZTVjZjQ4Yzc1Ng==
 memories:
   name: Memories
   authors:
   - name: Tim Clemans
-    email: timothy.clemans@gmail.com
     github: timothyclemans
   description: Using speech recognition you can temporarily store and retrieve strings
     of text.
@@ -178,12 +189,13 @@ memories:
   app_uri: https://s3.amazonaws.com/weariverse/memories
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/memories
   features: []
-  sha2: c36b1ea5d1958dd08a9c437f9d342323eac7cedbc0d1254ab468bbfcc63c0717
+  sha2: !binary |-
+    YzM2YjFlYTVkMTk1OGRkMDhhOWM0MzdmOWQzNDIzMjNlYWM3Y2VkYmMwZDEy
+    NTRhYjQ2OGJiZmNjNjNjMDcxNw==
 morse-code:
   name: Morse Code
   authors:
   - name: Brandyn White
-    email: bwhite@dappervision.com
     github: bwhite
     url: http://brandynwhite.com
   description: One finger tap for dot, two finger tap for dash, timing controls letter/word
@@ -193,12 +205,13 @@ morse-code:
   app_uri: https://s3.amazonaws.com/weariverse/morse-code
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/morse-code
   features: []
-  sha2: 8edd44cc62d48f979b7490fa920c6c81dc1e9fe21cd27fed7aa25a946c805bff
+  sha2: !binary |-
+    OGVkZDQ0Y2M2MmQ0OGY5NzliNzQ5MGZhOTIwYzZjODFkYzFlOWZlMjFjZDI3
+    ZmVkN2FhMjVhOTQ2YzgwNWJmZg==
 picture-callback:
   name: Picture Callback
   authors:
   - name: Brandyn White
-    email: bwhite@dappervision.com
     github: bwhite
     url: http://brandynwhite.com
   description: Shows taking a picture with the camera and displaying it in an image
@@ -208,30 +221,31 @@ picture-callback:
   app_uri: https://s3.amazonaws.com/weariverse/picture-callback
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/picture-callback
   features: []
-  sha2: e0a05af94df5d9ef2e236918f5e0601cfe47a0b82330f22981d02f7576a4ffdc
+  sha2: !binary |-
+    ZTBhMDVhZjk0ZGY1ZDllZjJlMjM2OTE4ZjVlMDYwMWNmZTQ3YTBiODIzMzBm
+    MjI5ODFkMDJmNzU3NmE0ZmZkYw==
 qr:
   name: QR
   authors:
   - name: Brandyn White
-    email: bwhite@dappervision.com
     github: bwhite
     url: http://brandynwhite.com
   tags:
   - widget
-  - qr
   - example
   description: Scan a QR code with Glass and have links open in tabs on your phone/laptop
   app_uri: https://s3.amazonaws.com/weariverse/qr
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/qr
   features:
   - widget
-  sha2: 6203d64c0c704964ae153a90a9cc7e570d1e0101bf9e650ddcc9bc8ef175a2a7
+  sha2: !binary |-
+    NjIwM2Q2NGMwYzcwNDk2NGFlMTUzYTkwYTljYzdlNTcwZDFlMDEwMWJmOWU2
+    NTBkZGNjOWJjOGVmMTc1YTJhNw==
 rotation-vector-demo:
   name: Rotation Vector Demo
   authors:
   - name: Scott Greenwald
     github: scottgwald
-    email: swgreen@mit.edu
   description: Shows orientation derived from rotation vector
   tags:
   - demo
@@ -239,7 +253,9 @@ rotation-vector-demo:
   app_uri: https://s3.amazonaws.com/weariverse/rotation-vector-demo
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/rotation-vector-demo
   features: []
-  sha2: 4b47517b781e9984a9b607c4c9643aeda4d983ef2e6521d0d15676c50e4052c0
+  sha2: !binary |-
+    NGI0NzUxN2I3ODFlOTk4NGE5YjYwN2M0Yzk2NDNhZWRhNGQ5ODNlZjJlNjUy
+    MWQwZDE1Njc2YzUwZTQwNTJjMA==
 satellite-view:
   name: Satellite View
   authors:
@@ -257,7 +273,9 @@ satellite-view:
   app_uri: https://s3.amazonaws.com/weariverse/satellite-view
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/satellite-view
   features: []
-  sha2: 131be254544b1b6c27535d4f75f6b867c94b0eb83042b09ba8ef78976b29a79f
+  sha2: !binary |-
+    MTMxYmUyNTQ1NDRiMWI2YzI3NTM1ZDRmNzVmNmI4NjdjOTRiMGViODMwNDJi
+    MDliYThlZjc4OTc2YjI5YTc5Zg==
 sugarglider:
   name: SugarGlider
   authors:
@@ -265,7 +283,7 @@ sugarglider:
     email: kurtisnelson@gmail.com
     github: kurtisnelson
     url: http://thisisnotajoke.com
-  description: Shows a live Glass-friendly top down view.  Kudos to Jenny Murphy https://github.com/mimming/sugarglider
+  description: Shows a live Glass-friendly top down view.  Kudos to Jenny Murphy github.com/mimming/sugarglider
     for the idea.
   tags:
   - navigation
@@ -276,4 +294,6 @@ sugarglider:
   app_uri: https://s3.amazonaws.com/weariverse/sugarglider
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/sugarglider
   features: []
-  sha2: 1f9358a05b45f19cc1d9d2c53dd569e57a1604df0cd7633770845b5405890ffb
+  sha2: !binary |-
+    MWY5MzU4YTA1YjQ1ZjE5Y2MxZDlkMmM1M2RkNTY5ZTU3YTE2MDRkZjBjZDc2
+    MzM3NzA4NDViNTQwNTg5MGZmYg==
