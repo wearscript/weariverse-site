@@ -1,13 +1,1 @@
-.author.well.well-sm
-  .avatar= image_tag gravatar_image_url(author.email, alt: author.name, size: 64)
-  - if author.name
-    span.name = link_to author.name, author.url
-  - elsif author.url
-    span.name = link_to author.url, author.url
-  - if author.email
-    span.email
-      span.glyphicon.glyphicon-envelope
-      '
-      = author.email
-  - if author.github
-    span.github = link_to author.github, "http://github.com/#{author.github}"
+img src=gravatar_image_url(author.email, alt: author.name, size: 32) data-placement="bottom" data-html="true" data-content="<div class='name'><a href='#{author.url}'>#{author.name}</a></div><div><span class='github'></span><a href='http://github.com/#{author.github}'>#{author.github}</div>" class="author-icon"
