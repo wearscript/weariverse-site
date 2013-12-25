@@ -21,4 +21,5 @@
               li = link_to "APK", "#{app.app_uri}/#{app.name}.apk"
             li = link_to "Source", app.source_uri, target: "_window"
             - if app.video
-                li = link_to "Video", "http://youtube.com/watch?v=#{app.video}", target: "_window"
+                li
+                  a.video-pill video="#{app.video}" Video
