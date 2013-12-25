@@ -6,6 +6,8 @@
   .col-md-4
     .app-card features=app.features.join(" ") tags=app.tags.join(" ")
       .panel.panel-primary
+        - app.authors.each do |author|
+          = partial :author, locals: {author: author}
         .panel-heading
           h3.panel-title= app.name
         .panel-body= partial :app_card, locals: {app: app}
@@ -20,5 +22,3 @@
             li = link_to "Source", app.source_uri, target: "_window"
             - if app.video
                 li = link_to "Video", "http://youtube.com/watch?v=#{app.video}", target: "_window"
-        - app.authors.each do |author|
-          = partial :author, locals: {author: author}
