@@ -17,10 +17,11 @@ html
   body class="#{page_classes}"
     javascript:
       $(function() {
-      $('.author-icon').popover();
       // NOTE(brandyn): No idea how to escape pound in slim
-      $('.video-pill').click(function (x) {$('#videoFrame').attr('src', 'http://www.youtube.com/embed/' + $(x.target).attr('video'));$(document.getElementById('videoModal')).modal()});
-      $('#videoClose').click(function () {$('#videoFrame').attr('src', '')})
+      var videoModal = $(document.getElementById('videoModal'));
+      $('.author-icon').popover();
+      videoModal.on('hide.bs.modal', function (e) {$('#videoFrame').attr('src', '')})
+      $('.video-pill').click(function (x) {$('#videoFrame').attr('src', 'http://www.youtube.com/embed/' + $(x.target).attr('video'));videoModal.modal()});
       });
     <div class="modal fade" id="authorModal" tabindex="-1" role="dialog" aria-labelledby="authorModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -42,10 +43,8 @@ html
     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
       <div class="modal-dialog">
 	<div class="modal-content">
-	  <div class="modal-header">
-	    <button id="videoClose" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	  </div>
-	  <div class="modal-body" style="min-height:300px">
+	  <!-- TODO(brandyn):  Should make responsive for phones -->
+	  <div class="modal-body" style="min-height:480px">
 	    <iframe id="videoFrame" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" frameborder="0"></iframe>
 	  </div>
 	</div><!-- /.modal-content -->
@@ -65,9 +64,11 @@ html
     .jumbotron
       .container
         h1 Welcome to the Weariverse
-        p WearScripts that you can load onto your Google Glass, no cables required.  Learn, hack, and contribute.
+        p WearScripts that you can load onto your Google Glass, no cables required.  Learn, hack, and share.
         p
           a.btn.btn-primary.btn-lg role="button" href="http://www.wearscript.com/en/latest/index.html" Get WearScript
+          a.btn.btn-primary.btn-lg role="button" href="http://www.openshades.com" About us
+          a.btn.btn-primary.btn-lg role="button" href="https://webchat.freenode.net/?channels=openshades" Chat with us
     .container
       = yield
-    .footer
+      
