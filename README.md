@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/openshades/weariverse-site.png?label=ready)](https://waffle.io/openshades/weariverse-site)  
 # Weariverse Builder
 
 This tool builds the user facing Weariverse
