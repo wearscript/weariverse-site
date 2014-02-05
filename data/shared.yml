@@ -1,4 +1,31 @@
 ---
+'8741534':
+  name: GDK Gestures Example
+  description: All gestures get logged to the console and the onGesture results are
+    spoken aloud
+  id: '8741534'
+  source_uri: https://gist.github.com/8741534
+  authors:
+  - github: bwhite
+    url: https://github.com/bwhite
+    avatar_url: https://gravatar.com/avatar/1ba470816bd8de5751c529f99e95f739?d=https%3A%2F%2Fidenticons.github.com%2F9e52112668804599bae71e241e4b4548.png&r=x
+  app_uri: https://s3.amazonaws.com/weariverse/8741534
+  features: []
+  tags: []
+  sha2: d113425d2d9ac0b368333353f2bb250b3ac11682874401b024ffe8a69060fc01
+'8745893':
+  name: QR Scanner
+  description: Scan a QR code with Glass and have links open in tabs on your phone/laptop
+  id: '8745893'
+  source_uri: https://gist.github.com/8745893
+  authors:
+  - github: bwhite
+    url: https://github.com/bwhite
+    avatar_url: https://gravatar.com/avatar/1ba470816bd8de5751c529f99e95f739?d=https%3A%2F%2Fidenticons.github.com%2F9e52112668804599bae71e241e4b4548.png&r=x
+  app_uri: https://s3.amazonaws.com/weariverse/8745893
+  features: []
+  tags: []
+  sha2: 1011949ded1373203bed9588ac2d1c235fdba9db87e7728153189a8b37336128
 camera-preview:
   name: Camera Preview
   authors:
@@ -15,9 +42,7 @@ camera-preview:
   app_uri: https://s3.amazonaws.com/weariverse/camera-preview
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/camera-preview
   features: []
-  sha2: !binary |-
-    ZThmMzYwYmJjZTM4Yjg4Y2VlNTI5MjZlODA4OGQxNDJhMWZiYTIyNDU2Mjc5
-    MTM2OWZlOTQ0Y2Q2NWI2NTBmMw==
+  sha2: e8f360bbce38b88cee52926e8088d142a1fba224562791369fe944cd65b650f3
 card-example:
   name: GDK Cards Example
   authors:
@@ -35,15 +60,13 @@ card-example:
   app_uri: https://s3.amazonaws.com/weariverse/card-example
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/card-example
   features: []
-  sha2: !binary |-
-    MDI0NjU0Yzk0ZGZiMDc4OWExY2Y0NTVjNzYwNTNiZGIzNTYxN2E0YzZkMzY3
-    Mjk4ZDdhNjRkMjE1OGZiMWQ4YQ==
+  sha2: 024654c94dfb0789a1cf455c76053bdb35617a4c6d367298d7a64d2158fb1d8a
 compass:
   name: Compass
   authors:
   - name: Kurt Nelson
-    email: kurtisnelson@gmail.com
     github: kurtisnelson
+    email: kurtisnelson@gmail.com
     url: http://thisisnotajoke.com
   description: Shows a live compass
   voice_trigger: compass
@@ -52,15 +75,12 @@ compass:
   - mapping
   - compass
   - apk
+  - apk
   app_uri: https://s3.amazonaws.com/weariverse/compass
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/compass
   features: []
-  sha2: !binary |-
-    OTEwODJlYWVhOGY1MmNjOWIzOGJjMTM1Y2U2ZGI4ZjZlN2ZmMWMzZWNiODUy
-    ZjJlNTljN2EwOWUwZjliZDAzZQ==
-  sha2-apk: !binary |-
-    MjIzYWI4ZGM4YTRjMzI2MjkxNDI5OTJiNmI3NTY4YWE2NmVlOTM4ODczODRi
-    MDdlZTBmMjNiNGM0NDRhYmMzNg==
+  sha2: 91082eaea8f52cc9b38bc135ce6db8f6e7ff1c3ecb852f2e59c7a09e0f9bd03e
+  sha2-apk: 223ab8dc8a4c32629142992b6b7568aa66ee93887384b07ee0f23b4c444abc36
 eyetracker-calibration:
   name: Eyetracker Calibrate
   authors:
@@ -76,9 +96,7 @@ eyetracker-calibration:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/eyetracker-calibration
   features:
   - eyetracker
-  sha2: !binary |-
-    YWY4OGE5NWIxMjQ3ZTlmNmZlZTFiMGFmZDRiOGNlMzljNDQxMmQ2ODgwM2Rh
-    ZmM0NmJmNTRlM2U2NjE0M2ZkNw==
+  sha2: af88a95b1247e9f6fee1b0afd4b8ce39c4412d68803dafc46bf54e3e66143fd7
 gestures-example:
   name: GDK Gestures Example
   authors:
@@ -98,9 +116,7 @@ gestures-example:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/gestures-example
   features:
   - custom-web
-  sha2: !binary |-
-    MzE1NTAzMDFmOTJkNmRhNmU3OWM2ZTE2YmI0NzA2ODg0ZTFmMzY5OWFlMDkw
-    YmJlNjAwNjQ2NzBhNzM5MjU5Yg==
+  sha2: 31550301f92d6da6e79c6e16bb4706884e1f3699ae090bbe60064670a739259b
 hacker-news:
   name: Hacker News
   authors:
@@ -120,15 +136,14 @@ hacker-news:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/hacker-news
   features:
   - custom-web
-  sha2: !binary |-
-    YmZiMjdhODIyOTZkMzI2MDNhMzNhNTk3MGNhZjNkOGE3NzQ5YTk3OGRlYjE5
-    YjI4NGRiMjBkOWI0NjZjNWIxMA==
+  sha2: bfb27a82296d32603a33a5970caf3d8a7749a978deb19b284db20d9b466c5b10
 image-pan:
   name: Image Panning Sample
   authors:
   - name: Scott Greenwald
     github: scottgwald
-    email: swgreen@mit.edu
+    email: scottgwald@gmail.com
+    url: https://plus.google.com/+ScottGreenwaldMIT/about
   description: Head motion pans around an image of the inside of the Sagrada Familia
     Basilica in Barcelona.
   require:
@@ -138,9 +153,7 @@ image-pan:
   app_uri: https://s3.amazonaws.com/weariverse/image-pan
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/image-pan
   features: []
-  sha2: !binary |-
-    YjU2YWNiODlmNTdhNDMxYTA5MDYzNjIzMWE1ZjhhY2Y3YmEwZTA5MjY4OWQx
-    ZjYyNWNmZWQ4NmQwNjlhMmIzOA==
+  sha2: b56acb89f57a431a090636231a5f8acf7ba0e092689d1f625cfed86d069a2b38
 irc:
   name: IRC
   authors:
@@ -161,9 +174,7 @@ irc:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/irc
   features:
   - server
-  sha2: !binary |-
-    NWExNzAzYmFiMWFkYTVjNzRiMmEyYTE2NWVmNjY4ODEzYjkxMTdiNDhmNTU2
-    MWQ4MTU2Nzg0YWFjMDIwZjgyMA==
+  sha2: 5a1703bab1ada5c74b2a2a165ef668813b9117b48f5561d8156784aac020f820
 keypress:
   name: Keypress
   authors:
@@ -180,9 +191,7 @@ keypress:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/keypress
   features:
   - hardware
-  sha2: !binary |-
-    NzNlMWVhNGI5ODZlOGY2ZGU0YjVkODJjMmVhYzVlMDdlYzUyN2Q4NTVhODM1
-    OGZhNjM0NDEzZTVjZjQ4Yzc1Ng==
+  sha2: 73e1ea4b986e8f6de4b5d82c2eac5e07ec527d855a8358fa634413e5cf48c756
 memories:
   name: Memories
   authors:
@@ -200,9 +209,7 @@ memories:
   app_uri: https://s3.amazonaws.com/weariverse/memories
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/memories
   features: []
-  sha2: !binary |-
-    YzM2YjFlYTVkMTk1OGRkMDhhOWM0MzdmOWQzNDIzMjNlYWM3Y2VkYmMwZDEy
-    NTRhYjQ2OGJiZmNjNjNjMDcxNw==
+  sha2: c36b1ea5d1958dd08a9c437f9d342323eac7cedbc0d1254ab468bbfcc63c0717
 morse-code:
   name: Morse Code
   authors:
@@ -217,9 +224,7 @@ morse-code:
   app_uri: https://s3.amazonaws.com/weariverse/morse-code
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/morse-code
   features: []
-  sha2: !binary |-
-    OGVkZDQ0Y2M2MmQ0OGY5NzliNzQ5MGZhOTIwYzZjODFkYzFlOWZlMjFjZDI3
-    ZmVkN2FhMjVhOTQ2YzgwNWJmZg==
+  sha2: 8edd44cc62d48f979b7490fa920c6c81dc1e9fe21cd27fed7aa25a946c805bff
 picture-callback:
   name: Picture Callback
   authors:
@@ -234,9 +239,7 @@ picture-callback:
   app_uri: https://s3.amazonaws.com/weariverse/picture-callback
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/picture-callback
   features: []
-  sha2: !binary |-
-    ZTBhMDVhZjk0ZGY1ZDllZjJlMjM2OTE4ZjVlMDYwMWNmZTQ3YTBiODIzMzBm
-    MjI5ODFkMDJmNzU3NmE0ZmZkYw==
+  sha2: e0a05af94df5d9ef2e236918f5e0601cfe47a0b82330f22981d02f7576a4ffdc
 qr:
   name: QR
   authors:
@@ -252,15 +255,14 @@ qr:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/qr
   features:
   - widget
-  sha2: !binary |-
-    NjIwM2Q2NGMwYzcwNDk2NGFlMTUzYTkwYTljYzdlNTcwZDFlMDEwMWJmOWU2
-    NTBkZGNjOWJjOGVmMTc1YTJhNw==
+  sha2: 6203d64c0c704964ae153a90a9cc7e570d1e0101bf9e650ddcc9bc8ef175a2a7
 rotation-vector-demo:
   name: Rotation Vector Demo
   authors:
   - name: Scott Greenwald
-    email: swgreen@mit.edu
     github: scottgwald
+    email: scottgwald@gmail.com
+    url: https://plus.google.com/+ScottGreenwaldMIT/about
   description: Shows orientation derived from rotation vector
   tags:
   - demo
@@ -268,15 +270,13 @@ rotation-vector-demo:
   app_uri: https://s3.amazonaws.com/weariverse/rotation-vector-demo
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/rotation-vector-demo
   features: []
-  sha2: !binary |-
-    NGI0NzUxN2I3ODFlOTk4NGE5YjYwN2M0Yzk2NDNhZWRhNGQ5ODNlZjJlNjUy
-    MWQwZDE1Njc2YzUwZTQwNTJjMA==
+  sha2: 4b47517b781e9984a9b607c4c9643aeda4d983ef2e6521d0d15676c50e4052c0
 satellite-view:
   name: Satellite View
   authors:
   - name: Kurt Nelson
-    email: kurtisnelson@gmail.com
     github: kurtisnelson
+    email: kurtisnelson@gmail.com
     url: http://thisisnotajoke.com
   description: Shows a live satellite view of where you are using Google Maps
   tags:
@@ -288,15 +288,32 @@ satellite-view:
   app_uri: https://s3.amazonaws.com/weariverse/satellite-view
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/satellite-view
   features: []
-  sha2: !binary |-
-    MTMxYmUyNTQ1NDRiMWI2YzI3NTM1ZDRmNzVmNmI4NjdjOTRiMGViODMwNDJi
-    MDliYThlZjc4OTc2YjI5YTc5Zg==
+  sha2: 131be254544b1b6c27535d4f75f6b867c94b0eb83042b09ba8ef78976b29a79f
+simon-game:
+  name: WearSimon
+  authors:
+  - name: Scott Greenwald
+    github: scottgwald
+    email: scottgwald@gmail.com
+    url: https://plus.google.com/+ScottGreenwaldMIT/about
+  description: A WearScript rendition of the classic electronic game http://en.wikipedia.org/wiki/Simon_(game).
+  screenshots: []
+  require: []
+  includes: []
+  tags:
+  - game
+  video: 3GvXeAsZjV0
+  remixes: ''
+  app_uri: https://s3.amazonaws.com/weariverse/simon-game
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/simon-game
+  features: []
+  sha2: 72c3998d85faad6a1d87fc4df1e9a8fb566d2269271a62099316007b36d8382d
 sugarglider:
   name: SugarGlider
   authors:
   - name: Kurt Nelson
-    email: kurtisnelson@gmail.com
     github: kurtisnelson
+    email: kurtisnelson@gmail.com
     url: http://thisisnotajoke.com
   description: Shows a live Glass-friendly top down view.  Kudos to Jenny Murphy for
     the idea.
@@ -309,6 +326,20 @@ sugarglider:
   app_uri: https://s3.amazonaws.com/weariverse/sugarglider
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/sugarglider
   features: []
-  sha2: !binary |-
-    MWY5MzU4YTA1YjQ1ZjE5Y2MxZDlkMmM1M2RkNTY5ZTU3YTE2MDRkZjBjZDc2
-    MzM3NzA4NDViNTQwNTg5MGZmYg==
+  sha2: 1f9358a05b45f19cc1d9d2c53dd569e57a1604df0cd7633770845b5405890ffb
+swipe-by-nodding:
+  name: swipe-by-nodding
+  authors:
+  - name: Tim Clemans
+    email: timothy.clemans@gmail.com
+    github: timothyclemans
+    url: ''
+  tags:
+  - demo
+  description: Allows you to switch between cards by nodding your head up (SWIPE_RIGHT)
+    and head down (SWIPE_LEFT).
+  voice_trigger: Head Nodding Card Changer Demo
+  app_uri: https://s3.amazonaws.com/weariverse/swipe-by-nodding
+  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/swipe-by-nodding
+  features: []
+  sha2: a294f33a86965f451e7fed2a9f8ff2169556fe945cc0b5fee3df6800394bd56c
