@@ -51,10 +51,15 @@ activate :automatic_image_sizes
 require 'gravatar_image_tag'
 # Methods defined in the helpers block are available in templates
 helpers GravatarImageTag::InstanceMethods
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def author_image_url author
+    if author.avatar_url
+      author.avatar_url
+    else
+      gravatar_image_url(author.email, alt: author.name, size: 32)
+    end
+  end
+end
 
 set :css_dir, 'stylesheets'
 
