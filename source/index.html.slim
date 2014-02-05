@@ -16,9 +16,9 @@
             - if app.id
               li = link_to "Wear", "https://api.picar.us/wearscriptdev/#/gist/#{app.id}", target: "_window"
             - elsif app.tags.include? "widget"
-              li = link_to "Wear", "https://api.picar.us/wearscriptdev/?script=#{app.app_uri}/index.html&widget=#{app.app_uri}/widget.html", target: "_window"
+              li = link_to "Wear", "https://api.picar.us/wearscriptdev/?script=#{app.app_uri}/glass.html&widget=#{app.app_uri}/widget.html", target: "_window"
             - else
-              li = link_to "Wear", "https://api.picar.us/wearscriptdev/?script=#{app.app_uri}/index.html", target: "_window"
+              li = link_to "Wear", "https://api.picar.us/wearscriptdev/?script=#{app.app_uri}/glass.html", target: "_window"
             - if app.tags.include? "apk"
               li = link_to "APK", "#{app.app_uri}/#{app.name}.apk"
             li = link_to "Source", app.source_uri, target: "_window"
