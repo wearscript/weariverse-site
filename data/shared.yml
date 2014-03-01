@@ -26,6 +26,19 @@
   features: []
   tags: []
   sha2: 1011949ded1373203bed9588ac2d1c235fdba9db87e7728153189a8b37336128
+'8837708':
+  name: Compass
+  description: Display a live compass
+  id: '8837708'
+  source_uri: https://gist.github.com/8837708
+  authors:
+  - github: kurtisnelson
+    url: https://github.com/kurtisnelson
+    avatar_url: https://gravatar.com/avatar/b760d9f0abd83292731e9f670b6d9202?d=https%3A%2F%2Fidenticons.github.com%2Ffab4ee8ceab6e77fcf58336b4c625a54.png&r=x
+  app_uri: https://s3.amazonaws.com/weariverse/8837708
+  features: []
+  tags: []
+  sha2: 6324aef7012c31c2e184b3f3449f7ea5b4849c5fd13a41102936b6f92c4e1a27
 camera-preview:
   name: Camera Preview
   authors:
@@ -61,26 +74,6 @@ card-example:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/card-example
   features: []
   sha2: 024654c94dfb0789a1cf455c76053bdb35617a4c6d367298d7a64d2158fb1d8a
-compass:
-  name: Compass
-  authors:
-  - name: Kurt Nelson
-    github: kurtisnelson
-    email: kurtisnelson@gmail.com
-    url: http://thisisnotajoke.com
-  description: Shows a live compass
-  voice_trigger: compass
-  tags:
-  - navigation
-  - mapping
-  - compass
-  - apk
-  - apk
-  app_uri: https://s3.amazonaws.com/weariverse/compass
-  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/compass
-  features: []
-  sha2: 91082eaea8f52cc9b38bc135ce6db8f6e7ff1c3ecb852f2e59c7a09e0f9bd03e
-  sha2-apk: 223ab8dc8a4c32629142992b6b7568aa66ee93887384b07ee0f23b4c444abc36
 eyetracker-calibration:
   name: Eyetracker Calibrate
   authors:

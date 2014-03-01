@@ -1,0 +1,10 @@
+<%
+    gists = [ ]
+    data.shared.each do |id, app|
+      gists << '"'+ id + '"'
+    end
+    gists = gists.join ','
+  %>
+{
+  <%= gists %>
+  }
