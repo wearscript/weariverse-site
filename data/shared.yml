@@ -12,7 +12,7 @@
   app_uri: https://s3.amazonaws.com/weariverse/8741534
   features: []
   tags: []
-  sha2: d113425d2d9ac0b368333353f2bb250b3ac11682874401b024ffe8a69060fc01
+  sha2: 6fcfde6eb3f7d12acd30bbc578fdba650d9b0eabc9cf77e331ae6b7ab45d0c0b
 '8745893':
   name: QR Scanner
   description: Scan a QR code with Glass and have links open in tabs on your phone/laptop
@@ -39,6 +39,19 @@
   features: []
   tags: []
   sha2: 6324aef7012c31c2e184b3f3449f7ea5b4849c5fd13a41102936b6f92c4e1a27
+'9479719':
+  name: Battery Graph
+  description: Shows a live graph of your battery, updating up to every second.
+  id: '9479719'
+  source_uri: https://gist.github.com/9479719
+  authors:
+  - github: kurtisnelson
+    url: https://github.com/kurtisnelson
+    avatar_url: https://gravatar.com/avatar/b760d9f0abd83292731e9f670b6d9202?d=https%3A%2F%2Fidenticons.github.com%2Ffab4ee8ceab6e77fcf58336b4c625a54.png&r=x
+  app_uri: https://s3.amazonaws.com/weariverse/9479719
+  features: []
+  tags: []
+  sha2: e690a7937bb3aa9718040c8d5ec5516f033a70c7f1e64fc81a2ba2262cce19fa
 camera-preview:
   name: Camera Preview
   authors:
@@ -233,22 +246,6 @@ picture-callback:
   source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/picture-callback
   features: []
   sha2: e0a05af94df5d9ef2e236918f5e0601cfe47a0b82330f22981d02f7576a4ffdc
-qr:
-  name: QR
-  authors:
-  - name: Brandyn White
-    github: bwhite
-    email: bwhite@dappervision.com
-    url: http://brandynwhite.com
-  tags:
-  - widget
-  - example
-  description: Scan a QR code with Glass and have links open in tabs on your phone/laptop
-  app_uri: https://s3.amazonaws.com/weariverse/qr
-  source_uri: https://github.com/OpenShades/weariverse/tree/master/scripts/qr
-  features:
-  - widget
-  sha2: 6203d64c0c704964ae153a90a9cc7e570d1e0101bf9e650ddcc9bc8ef175a2a7
 rotation-vector-demo:
   name: Rotation Vector Demo
   authors:
